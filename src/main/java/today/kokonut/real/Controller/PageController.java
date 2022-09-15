@@ -11,4 +11,9 @@ public class PageController {
     public String MainController() {
         return "index/index";
     }
+
+    @GetMapping("/board")
+    public String goeditorcontroller() {
+        return "board/ckeditor";
+    }
 }
